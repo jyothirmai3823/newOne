@@ -1,0 +1,806 @@
+/*------------------------------------------------------------------
+Project:	 RETTIC
+Version: 	1.0
+Assigned to:	Templines
+Primary use:	RETTIC
+
+TABLE CONTENT
+
+- BLOG
+- POST
+- COMMENTS
+
+-------------------------------------------------------------------*/
+
+
+
+
+
+/******** BLOG ********/
+
+.wrap-blog-post {
+    margin-bottom: 45px; 
+}
+
+.wrap-blog-post.wrap-wide-blog-post {
+    background: #f6f6f6;
+}
+
+.wrap-blog-post.wrap-wide-blog-post .wrap-image .post-date {
+    right: auto;
+    left: 40px;
+}
+
+.wrap-blog-post .wrap-image {
+    position: relative;
+    min-height: 50px;
+}
+
+.wrap-blog-post .wrap-image  blockquote:not([class]) ,  .post-image blockquote:not([class]){
+    margin: 0 !important;
+    padding-left: 140px !important;
+    padding-top: 60px !Important;
+}
+
+
+.wrap-image blockquote , .post-image  blockquote {
+    padding: 30px 30px 20px 60px !important;
+    border: 2px solid #ececec !important;
+}
+
+
+.wrap-image blockquote + .post-date , .post-image blockquote  + .post-date {
+display: none !important;
+}
+
+
+
+
+.wrap-blog-post .wrap-image img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.wrap-image iframe , .post-image iframe{
+    max-width: 100%;
+    width: 100%;
+}
+
+
+.no-image .post-date{
+    bottom: 0 !important;
+    left: 0 !important;
+}
+
+.wrap-blog-post .wrap-image .post-date {
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 25px;
+    padding: 20px 20px 10px 20px;
+    opacity: 1;
+    right: 25px;
+    display: inline-table;
+    width: inherit;
+}
+
+
+
+
+.wrap-blog-post .wrap-image .post-date:before{
+    background:#237ac6;
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity:1;
+    z-index: 2;
+}
+
+.wrap-blog-post .wrap-image .post-date a {
+    color: #fff;
+    position: relative;
+    z-index: 7;
+    border-right: 1px solid #fff;
+    padding-left: 0;
+    line-height: 9px;
+    padding: 0 5px 0px 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 11px;
+    font-weight: 400;
+    font-size: 11px;
+    font-size: 11px;
+}
+
+.wrap-blog-post .wrap-image .post-date a:last-child{
+    border: 0;
+}
+
+.post-description {
+    padding: 0px 0px 30px 0px;
+    line-height: 25px;
+    font-size: 11px;
+}
+
+
+ .post-date i {
+    font-size: 14px;
+    margin-right: 8px;
+    color: #777;
+    position: relative;
+    top: 1px;
+}
+
+.wrap-blog-post .post-description .author {
+     color: #777;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    font-weight: 400;
+    font-size: 11px;
+}
+
+.wrap-blog-post .post-description .author a {
+     color: #777;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 11px;
+    
+}
+
+  .post-date   a{
+    padding-right: 2px;
+    padding-left: 2px;
+    line-height: 7px !important;
+    display: inline-block;
+}
+
+
+
+
+  .post-date , .post-date a{
+    color: #777;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 11px;
+}
+
+
+  .post-date  .author{
+    padding-right: 5px;
+}
+
+.post-description .fa-comment-o {
+    color: #777;
+    margin-right: 5px;
+    margin-left: 10px;
+    top: -1px;
+    position: relative;
+}
+
+.post-description .fa-comment-o + a{
+    position: relative;
+    top: -2px;
+}
+
+.post-description .icon-heart {
+    position: relative;
+    top: 1px;
+    margin-right: 5px;
+}
+
+
+.post_footer{
+    clear: both;
+    display: inline-block;
+    width: 100%;
+}
+
+
+.post-body + .post_footer{
+    border: 1px solid #eaeaea;
+    padding: 20px 20px;
+    margin-top: 20px;
+}
+
+
+
+.post_read_more{
+    font-size: 13px;
+    padding: 10px 25px 9px 24px;
+    line-height: 27px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    box-shadow: none !important;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    background: #ed912a;
+    color: #fff !important;
+    text-decoration: none !important;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    margin-top: 0;
+    display: inline-block;
+    clear: both;
+    font-weight: 700;
+}
+
+
+.post_read_more:hover .fa{
+    left: -2px;
+}
+
+.post_read_more .fa {
+    position: relative;
+    margin-left: 7px;
+    margin-right: -7px;
+    transition: all .3s ease-out;
+}
+
+
+.post_read_more:hover{
+    color: #fff;
+    opacity: 0.8;
+}
+.post-body {
+    padding:45px 20px 20px 20px;
+}
+
+.wrap-blog-post .post-body p {
+    margin: 15px 0 25px;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.list-blog-item {
+    max-width: 290px;
+    margin: 0 auto 20px;
+}
+
+.list-blog-item .blog-image {
+     margin-bottom: 10px;
+}
+
+.list-blog-item .blog-image img {
+    max-width: 100%;
+    height: auto
+}
+
+.list-blog-item .tags {
+margin-bottom: 10px;
+    font-size: 11px;
+}
+
+.list-blog-item .tags span {
+    color: #2b395b;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.list-blog-item .blog-description p {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 22px;
+}
+
+
+
+.list-blog-item .blog-description .read-more {
+    opacity: 0.8;
+    display: inline-block;
+    padding-left: 14px;
+    border-radius: 0;
+    padding: 4px 12px;
+    float: right;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    margin-top: 20px; 
+}
+
+.list-blog-item .blog-description .read-more:hover {
+    opacity: 1;
+}
+
+.blog-description h4 a {
+    font-size: 24px;
+    font-weight: 700;
+    color: inherit;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.blog-description h4 a{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.tags *,
+.tags a {
+    color: #fff !important;
+
+}
+
+
+.log-list-container  .list-blog-item  .tags , .log-list-container  .list-blog-item  .tags *,
+.log-list-container  .list-blog-item  .tags a , .list-blog-item .tags  , html  .list-blog-item .tags span , .list-blog-item  .tags a {
+    color: #ed912a !important;
+    font-size: 12px !Important;
+    text-transform: uppercase !Important;
+    font-weight: 700 !important;
+    line-height: 20px;
+}
+
+
+/******** POST ********/
+
+.blog-post {
+    background: #f6f6f6;
+    margin-bottom: 100px;
+}
+
+.blog-post .post-image {
+    position: relative;
+    min-height: 50px;
+    background: #fff;
+}
+
+.blog-post .post-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.blog-post .post-image .post-date {
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 25px;
+    padding: 20px 20px 20px 20px;
+    opacity: 1;
+    right: 25px;
+    display: inline-table;
+    width: inherit;
+    background: #237ac6;
+}
+
+.blog-post .post-description {
+    padding: 40px 40px 5px 40px;
+    line-height: 25px;
+}
+
+.blog-post .post-description .author {
+    color: #aaaaaa;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.blog-post .post-description .author a {
+    color: #237ac6;
+}
+
+.blog-post .post-description a {
+    color: #237ac6;
+}
+
+.blog-post .post-description a span {
+    color: rgba(170, 170, 170, 0.8);
+    margin-right: 5px;
+}
+
+.blog-post .post-body {
+    padding: 0 40px 45px 40px;
+}
+
+
+.post-name{
+    font-weight: 700;
+    font-size: 22px;
+    color: #333;
+    padding: 0 0 15px 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.post-name a{
+    font-weight: 700;
+    font-size: 22px;
+    color: #333;
+    display: inline-block;
+}
+
+.post-body .rtd{
+    font-size: 14px;
+    line-height: 2;
+}
+
+
+
+
+.blog-post .post-body p {
+    margin-bottom: 20px;
+}
+
+.blog-post .post-body img.pull-right {
+    margin: 0 0 10px 15px;
+}
+
+.blog-post .post-body img.pull-left {
+    margin: 0 15px 10px 0;
+}
+
+
+
+.post-footer  a.btn.btn-transparent {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: none;
+    background: #237ac6;
+    padding-left: 5px;
+    margin-right: -1px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+
+.post-footer  .blog-footer-title {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+
+.btn-social a{
+    padding-right: 5px;
+}
+
+
+
+.post-footer {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #777;
+    position: relative;
+    padding: 25px 25px 0 25px;
+    margin: 45px 0;
+    border: 1px solid #eaeaea;
+}
+
+
+
+.post-footer *{
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+
+.footer-meta:nth-child(even){
+    text-align: right;
+    position: relative;
+    right: -17px;
+}
+
+
+
+
+.post-footer .blog-footer-categories ,.post-footer .blog-footer-tags ,.post-footer .btn-social {
+    width: 49%; 
+    display: inline-block;
+    margin-bottom: 25px;
+    vertical-align: top;
+}
+
+
+
+.blog-cat-footer + .pull-right{
+    max-width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+}
+
+
+
+.post-footer a {
+    font-size: 12px;
+    color: #777;
+    margin-right: 2px;
+}
+
+
+
+.pix-social-title{
+    background: #237ac6;
+    color: #ffffff;
+    font-size: 11px;
+    text-transform: uppercase;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 0;
+    line-height: 35px;
+    padding: 1px 15px;
+    margin: 0 2px 2px -7px;
+    height: auto;
+    display: inline-block;
+}
+
+
+.pix-social-share{
+    float: right;
+    width: 40%;
+    text-align: right;
+}
+
+
+.pix-social-share a{
+      margin-left: -7px;
+}
+
+
+/******** COMMENTS ********/
+
+.reply {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+.reply a {
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    -webkit-transform: translate(0, -10px);
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px 18px 10px 18px;
+    line-height: 30px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    box-shadow: none !important;
+    background: #fff;
+    color: #333;
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+}
+
+.reply a:hover:after {
+    display: inline-block;
+    
+}
+
+.reply a:after {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    content: "\f178";
+    margin-left: 10px;
+    color: #333;
+    display: none;
+}
+
+.reply a:hover {
+    background: #337ab7;
+    color: #fff;
+}
+
+.reply a:hover:after {
+    color: #fff !important;
+}
+
+.comment-list cite a {
+    font: 700 12px Raleway;
+    color: #222;
+}
+
+.comment-meta a {
+    font-size: 11px;
+    color: #666;
+    text-transform: uppercase;
+}
+
+
+
+.comment-info-content cite {
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+        font-weight: 700;
+    font-size: 14px;
+}
+
+
+
+.comment-list .comment-info-content {
+    margin-left: 90px;
+    padding-bottom: 0;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+
+
+.comment-list .comment-author {
+    float: left;
+    width: 65px;
+    height: 65px;
+    border: 5px solid #eee;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.comment-list .comment-author img {
+    width: 100%;
+    height: auto;
+}
+
+.comment-list .comment , .comment-list > li {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+
+.comment-list .comment  .comment {
+    position: inherit;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.comment-list ol.children {
+    margin-top: 20px;
+}
+
+.comment-respond {
+    padding: 0;
+    margin: 50px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.comment-notes {
+ margin-bottom: 20px;
+    padding-left: 0;
+}
+
+.comment-respond input[type=text],
+.comment-respond i input[type=tel],
+.comment-respond i input[type=password],
+.comment-respond input[type=email] ,
+.comment-respond input[type=url],
+.comment-respond textarea {
+        background: #fff none repeat scroll 0 0;
+        border: 1px solid #dddddd;
+        color: #333;
+        font-size: 15px;
+        line-height: 26px;
+        outline: medium none;
+        padding: 10px 25px;
+        width: 100%;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;
+        border-radius: 100px;
+}
+
+.comment-respond .wrap__btn-skew-r {
+    /* width: 160px; */
+    margin-top: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    overflow: hidden;
+}
+
+.comment-reply {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.comment-reply .btn {
+    background-color: #f8f8f8;
+}
+
+
+
+.commentmetadata{
+    padding-bottom: 25px;
+}
+
+.comment-info-content p{
+    font-size: 15px;
+    color: #777;
+}
+
+#respond  .form-submit{
+    padding-top: 15px;
+    text-align: right;
+}
+
+
+.blog-comments {
+    margin-bottom: 40px;
+}
+
+.blog-comments h4 {
+    margin-bottom: 40px;
+}
+
+.blog-comments .comment-item {
+    background-color: #f6f6f6;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.blog-comments .comment-item .media-left {
+    padding-right: 25px;
+}
+
+.blog-comments .comment-item .media-left img {
+    max-width: 120px;
+}
+
+.blog-comments .comment-item .comment-item-heading {
+    margin-bottom: 10px;
+}
+
+.blog-comments .comment-item .comment-item-heading .author {
+    color: #237ac6;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.blog-comments .comment-item .comment-item-heading .date {
+    color: rgba(170, 170, 170, 0.8);
+    font-size: 14px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.blog-comments .comment-item .comment-body p {
+    line-height: 24px;
+}
+
+
+
+.carousel-post img{
+    width: 100%;
+    height: auto;
+}
+
+
+.wrap-image  .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    position: absolute;
+    bottom: 40px;
+    z-index: 7;
+    width: 100%;
+}
+
+
+.post-image  .bx-wrapper .bx-pager {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.post-image  .bx-controls-direction , .wrap-image .bx-controls-direction{
+    opacity: 0;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+
+.post-image:hover  .bx-controls-direction ,  .wrap-image:hover  .bx-controls-direction{
+    opacity: 1;
+}

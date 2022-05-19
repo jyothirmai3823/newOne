@@ -1,0 +1,2 @@
+2022-05-06T14:23:35+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /home/be0w6ffilnlm/public_html/greenfill.techallylabs.com/wp-content/plugins/elementor/includes/controls/slider.php on line 50
+

@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'flaticon';
+  src: url('../font/flaticon.eot?85286935');
+  src: url('../font/flaticon.eot?85286935#iefix') format('embedded-opentype'),
+       url('../font/flaticon.woff2?85286935') format('woff2'),
+       url('../font/flaticon.woff?85286935') format('woff'),
+       url('../font/flaticon.ttf?85286935') format('truetype'),
+       url('../font/flaticon.svg?85286935#flaticon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'flaticon';
+    src: url('../font/flaticon.svg?85286935#flaticon') format('svg');
+  }
+}
+*/
+ 
+ [class^="flaticon-"]:before, [class*=" flaticon-"]:before {
+  font-family: "flaticon";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.flaticon-shopping-cart-empty:before { content: '\e810'; } /* '' */
+.flaticon-shopping-cart:before { content: '\f101'; } /* '' */
+.flaticon-shopping-bag:before { content: '\f102'; } /* '' */
+.flaticon-basket:before { content: '\f103'; } /* '' */
+.flaticon-food:before { content: '\f104'; } /* '' */
+.flaticon-interface:before { content: '\f105'; } /* '' */
+.flaticon-web:before { content: '\f106'; } /* '' */
+.flaticon-social:before { content: '\f107'; } /* '' */
+.flaticon-gps:before { content: '\f108'; } /* '' */
+.flaticon-diamond-store:before { content: '\f109'; } /* '' */
+.flaticon-day-one:before { content: '\f10a'; } /* '' */
+.flaticon-map-placeholders:before { content: '\f10b'; } /* '' */
+.flaticon-white-cogwheel:before { content: '\f10c'; } /* '' */
+.flaticon-people:before { content: '\f10d'; } /* '' */
+.flaticon-voice-recorder:before { content: '\f10e'; } /* '' */
+.flaticon-history-clock-button:before { content: '\f10f'; } /* '' */

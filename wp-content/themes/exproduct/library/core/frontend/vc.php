@@ -1,0 +1,32 @@
+<?php
+
+function exproduct_vc_map($params, $cssAnimation = array(), $icons = false, $order=0) {
+    $baseParams = $params['params'];
+    $param1 = $param2 = array();
+    if($order > 0 && $order <= count($baseParams)){
+        $i=0;
+        foreach($baseParams as $key => $val){
+            $i++;
+            if($i<$order)
+                $param1[] = $val;
+            elseif($i>=$order)
+                $param2[] = $val;
+        }
+    }
+    if (!$icons) {
+        if (empty($cssAnimation)) {
+            $vcParams = $baseParams;
+        } else {
+            $vcParams = array_merge($baseParams, $cssAnimation);
+        }
+    } else {
+        if($order > 0 && $order <= count($baseParams))
+            $vcParams = array_merge($param1, $icons, $param2, $cssAnimation);
+        else
+            $vcParams = array_merge($baseParams, $icons, $cssAnimation);
+    }
+    $params['params'] = $vcParams;
+    vc_map($params);
+}
+
+?>

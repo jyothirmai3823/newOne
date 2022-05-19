@@ -1,0 +1,8 @@
+[23-Apr-2022 05:40:56 UTC] WordPress database error Table 'i8235382_wp15.wp_aioseo_cache' doesn't exist for query DELETE FROM wp_aioseo_cache
+WHERE 1 = 1 AND
+	( `expiration` IS NOT NULL AND expiration <= '2022-04-23 05:40:56' )
+/* 1 = 1 */ made by do_action_ref_array('action_scheduler_run_queue'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->run, ActionScheduler_QueueRunner->do_batch, ActionScheduler_Abstract_QueueRunner->process_action, ActionScheduler_Action->execute, do_action_ref_array('aioseo_cache_prune'), WP_Hook->do_action, WP_Hook->apply_filters, AIOSEO\Plugin\Common\Utils\CachePrune->prune, AIOSEO\Plugin\Common\Utils\Database->run
+[06-May-2022 14:23:35 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /home/be0w6ffilnlm/public_html/greenfill.techallylabs.com/wp-content/plugins/elementor/includes/controls/slider.php on line 50
+[06-May-2022 14:25:08 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /home/be0w6ffilnlm/public_html/greenfill.techallylabs.com/wp-content/plugins/elementor/includes/base/widget-base.php on line 183
+[06-May-2022 14:25:20 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /home/be0w6ffilnlm/public_html/greenfill.techallylabs.com/wp-content/plugins/elementor/includes/controls/base-multiple.php on line 61
+[06-May-2022 14:25:30 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /home/be0w6ffilnlm/public_html/greenfill.techallylabs.com/wp-content/plugins/elementor/includes/controls/base-multiple.php on line 61

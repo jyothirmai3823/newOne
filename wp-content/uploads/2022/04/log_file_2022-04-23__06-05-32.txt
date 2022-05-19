@@ -1,0 +1,64 @@
+
+---Downloaded files---
+The import files for: Exproduct Theme were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://greenfill.techallylabs.com
+Data file = /home/be0w6ffilnlm/public_html/greenfill.techallylabs.com/wp-content/uploads/2022/04/demo-content-import-file_2022-04-23__06-05-32.xml
+Widget file = /home/be0w6ffilnlm/public_html/greenfill.techallylabs.com/wp-content/uploads/2022/04/demo-widgets-import-file_2022-04-23__06-05-32.json
+Customizer file = /home/be0w6ffilnlm/public_html/greenfill.techallylabs.com/wp-content/uploads/2022/04/demo-customizer-import-file_2022-04-23__06-05-32.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "iceberg.mp4" (Media)
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+Search - Search - Imported
+Archives - No Title - Imported
+Categories - No Title - Imported
+Recent Posts - No Title - Imported
+Recent Comments - No Title - Imported
+
+Shop sidebar : 
+
+Product Search - No Title - Imported
+Filter Products by Price - Filter by price - Imported
+Product Categories - Product categories - Imported
+Product Tag Cloud - Product tags - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

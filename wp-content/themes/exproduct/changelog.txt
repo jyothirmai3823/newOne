@@ -1,0 +1,82 @@
+
+
+version 1.1  (25.12.2017) by Zaymund
+
+  Wocommerce atribute problem
+
+
+
+
+version 1.0.9  (25.12.2017) by Alexey
+
+PHP 7 bug fixed
+
+
+
+version 1.0.8  (27.11.2017) by Zaymund
+
+Wresponsive bugs fixed
+
+
+    
+version 1.0.7  (18.11.2017) by Alexey
+
+WooCommerce minor bugs fixed
+
+
+
+
+version 1.0.6  (17.10.2017) by Alex
+
+Minor bugs
+
+
+
+
+version 1.0.5  (29.09.2017) by Alexey
+
+Translation minor bugs fixed
+
+
+	
+
+
+version 1.0.4  (20.09.2017) by Alexey
+
+Shop RevSlider setting added
+
+
+
+
+
+version 1.0.3  (14.08.2017) by Alexey
+
+Single Shopping Cart subtotal bug fixed
+
+
+	
+
+
+version 1.0.2  (19.07.2017) by Alexey
+
+Link bug fixed
+Single Shopping Cart single product support added
+
+
+
+
+version 1.0.1  (03.07.2018) by Alexey
+
+Added setting Checkout without Cart
+
+
+	
+    
+version 1.4.0  (03.04.2019) by Alex
+
+Minor bugs fixed
+Speed optimization
+    
+    
+    
+
